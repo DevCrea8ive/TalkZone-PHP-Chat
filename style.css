@@ -1,0 +1,213 @@
+body {
+    background: url(images/home.PNG);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.signUpbox{
+    padding: 40px;
+    background: #fff;
+    width: 400px;
+    box-shadow: 0px 14px 80px rgba(0, 0, 0, 0.432);
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+@media(max-width: 700px) {
+    .signUpbox{
+        margin-top: 70px;
+    }
+}
+input {
+    width: 100%;
+    height: 30px;
+    transition: 2s;
+    padding: 6px;
+    border: 1px solid rgba(0, 97, 194, 0.308);
+    margin: 10px;
+    border-radius: 6px;
+    background: #fff;
+    outline: none;
+}
+.sGen{
+    width: 100%;
+    height: 30px;
+    transition: 2s;
+    padding: 6px;
+    border: 1px solid rgba(0, 97, 194, 0.308);
+    margin: 10px;
+    border-radius: 6px;
+    background: #fff;
+    outline: none;
+}
+input:focus{
+    border-color: #2554FF;
+    box-shadow: none;
+}
+label {
+    float: left;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: Arial;
+}
+h3{
+    margin-top: -20px;
+    font-size: 30px;
+}
+button{
+    width: 100%;
+    height: 43px;
+    background: dodgerblue;
+    margin-left: 10px;
+    border: 2px solid #2554FF;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: bold;
+    outline: none;
+    font-family: Georgia;
+    font-size: 20px;
+}
+.link{
+    text-decoration: none; 
+    color: rgba(219, 219, 48, 0.76);
+}
+.link:hover{
+    transform: translateY(20px);
+    color: #2554FF;
+    transition: 0.6s;
+}
+.error {
+    padding: 20px;
+    width: 100%;
+    background: rgb(235, 195, 195);
+    border: 1px solid salmon;
+    color: rgb(187, 95, 85);
+    float: left;
+    font-family: Tahoma;
+    border-radius: 6px;
+    margin: 0 auto;
+    
+}
+.success{
+    background: rgb(195, 235, 198);
+    border: 1px solid rgb(114, 250, 125);
+    color: rgb(96, 202, 63);
+    font-family: Tahoma;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+  .success h3{
+      margin-top: 20px;
+      font-family: tahoma;
+      font-size: 27px;
+      text-align: center;
+  }
+  .br{
+      margin: 8px;
+  }
+  .menu{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 30px;
+      width: 100%;
+      background: #2554FF;
+  }
+  .logo{
+      width: 900px;
+      text-decoration: none;
+      float: left;
+      
+  }
+  .logo h2{
+      font-size: 25px;
+      color: white;
+      text-decoration: none;
+      font-family: forte;
+      text-shadow: 0px 3px 10px black;
+      float: left;
+  }
+  .menu-items{
+      flex: 1;
+  }
+  nav ul{
+      display: inline-flex;
+  }
+  nav ul li{
+      display: inline-block;
+      
+      list-style: none;
+  }
+  nav ul li a{
+      color: white;
+      text-decoration: none;
+      margin-right: 100px;
+  }
+  
+  .wel{
+      font-size: 30px;
+      text-align: center;
+      
+  }
+  .wel b{
+      color: #2554FF;
+  }
+  .text {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 20px;
+  }
+  .contain{
+      text-align: center;
+      padding: 30px;
+      color: white;
+      max-width: 400px;
+      background: rgba(0, 0, 0, 0.445);
+      margin: 0 auto;
+      margin-top: 5%;
+  }
+  .joinBtn{
+      background: #2554FF;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  .msgBox{
+      padding: 20px;
+      background: white;
+      height: 400px;
+      max-width: 60%;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      margin: 0 auto;
+      box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.664);
+      margin-top: 40px;
+  }
+  .message{
+      padding: 5px;
+      background: #2554FF;
+      border-radius: 8px;
+      max-width: 330px;
+      color: #fff;
+      margin-top: 5%;
+  }
+  .btn-primary {
+    background-color: #2554FF;
+    width: 50px;
+    height: 50px;
+    
+    }
+
+.message img{
+    width: 20px;
+    border-radius: 50%;
+}
+textarea{
+    height: 100px;
+}
